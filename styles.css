@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Neuton&family=Roboto&family=Roboto+Condensed&display=swap");
 
 /*HEADER*/
+a.navbar-brand {
+  margin-left: 1rem;
+}
 
 .navbar-dark .navbar-brand,
 li a {
@@ -8,7 +11,8 @@ li a {
   font-size: 25px;
 }
 
-.navbar-dark .navbar-brand {
-  color: rgb(255, 255, 255);
+li.nav-item {
+  margin-right: 2rem;
 }
+
 /* /.HEADER*/
