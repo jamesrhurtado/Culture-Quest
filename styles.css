@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton&family=Roboto&family=Roboto+Condensed&display=swap");
+
+/*HEADER*/
+
+.navbar-dark .navbar-brand,
+li a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+/* /.HEADER*/
