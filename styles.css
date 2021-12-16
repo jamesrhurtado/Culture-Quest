@@ -16,3 +16,8 @@ li.nav-item {
 }
 
 /* /.HEADER*/
+
+.hero-section {
+  padding-right: 0;
+  padding-left: 0;
+}
