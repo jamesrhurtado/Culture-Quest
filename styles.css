@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Neuton&family=Roboto&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+h2,
+h4,
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-family: "Roboto Slab", sans-serif;
+}
 
 /*HEADER*/
 a.navbar-brand {
@@ -8,7 +19,7 @@ a.navbar-brand {
 .navbar-dark .navbar-brand,
 li a {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 li.nav-item {
@@ -22,12 +33,23 @@ li.nav-item {
   padding-left: 0;
 }
 
-.hero-section h1,
+.hero-section h2,
 .hero-section h4 {
-  font-family: "Roboto Condensed", sans-serif;
   color: #fff;
 }
 
 .top-50 {
-  top: 40% !important;
+  top: 45% !important;
+}
+
+.card {
+  display: inline-block;
+}
+
+.card .card-text {
+  font-size: 1.2rem;
+}
+
+.card .card-header {
+  font-size: 1.3rem;
 }
