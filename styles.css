@@ -125,3 +125,21 @@ li.nav-item {
 }
 
 /* /.CULTURE APP */
+/* TOURISM PARTNER */
+
+.culture-tourism-partner p {
+  padding-right: 4.8rem;
+  font-size: 1.2rem;
+}
+
+.culture-tourism-partner .row {
+  flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 768px) {
+  .culture-tourism-partner p {
+    padding-right: 0;
+  }
+}
+
+/* /.TOURISM PARTNER */
