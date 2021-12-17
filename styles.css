@@ -110,3 +110,18 @@ li.nav-item {
 .culture-911 .row {
   flex-wrap: wrap-reverse;
 }
+/* /.CULTURE 911 */
+
+/* CULTURE APP */
+.culture-app p {
+  padding-left: 4.8rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .culture-app p {
+    padding-left: 0;
+  }
+}
+
+/* /.CULTURE APP */
