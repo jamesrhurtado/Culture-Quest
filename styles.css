@@ -28,6 +28,8 @@ li.nav-item {
 
 /* /.HEADER*/
 
+/* HERO*/
+
 .hero-section {
   padding-right: 0;
   padding-left: 0;
@@ -42,6 +44,9 @@ li.nav-item {
   top: 45% !important;
 }
 
+/* /.HERO*/
+
+/* DIMENSIONES */
 .card {
   display: inline-block;
 }
@@ -52,4 +57,34 @@ li.nav-item {
 
 .card .card-header {
   font-size: 1.3rem;
+}
+/* /.DIMENSIONES */
+
+/* CULTURE 911 */
+
+.culture-911 {
+  background-image: url(images/black-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.culture-911 h1 {
+  color: #fff;
+}
+
+.culture-911 .img-fluid {
+  margin: 10px;
+}
+@media (max-width: 768px) {
+  .culture-911 {
+    max-width: 100%;
+  }
+}
+
+.culture-911 {
+  color: #fff;
+}
+
+.culture-911 .row {
+  flex-wrap: wrap-reverse;
 }
