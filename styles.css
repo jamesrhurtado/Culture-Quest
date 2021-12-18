@@ -7,7 +7,8 @@ h5 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-p {
+p,
+a {
   font-family: "Roboto Slab", sans-serif;
 }
 li {
@@ -159,4 +160,8 @@ li.nav-item {
   color: #fff;
   list-style: none;
   text-decoration: none;
+}
+
+.footer .heading-footer {
+  font-weight: bold;
 }
