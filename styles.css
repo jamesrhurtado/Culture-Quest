@@ -48,12 +48,16 @@ li.nav-item {
   padding-left: 0;
 }
 
-.hero-section .main-title {
-  font-size: 3rem;
-}
+@media (min-width: 768px) {
+  .hero-section .main-title {
+    font-size: 3rem;
+    margin-bottom: 1rem !important;
+  }
 
-.hero-section h4 {
-  font-size: 2.2rem;
+  .hero-section h4 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem !important;
+  }
 }
 
 .hero-section h2,
@@ -164,4 +168,9 @@ li.nav-item {
 
 .footer .heading-footer {
   font-weight: bold;
+}
+
+.copyright p {
+  color: #939393;
+  margin-left: 1.5rem;
 }
